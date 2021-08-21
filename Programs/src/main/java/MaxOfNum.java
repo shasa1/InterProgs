@@ -9,7 +9,7 @@ System.out.println("Maximum is: "+largest);
 
 	int temp; //= Math.max(a, b);
 	if(a > b && a > c)
-		System.out.println("The max value is: "+a);
+		System.out.println("The maximum value is: "+a);
 	if(b > a && b > c)
 		System.out.println("The max value is: "+b);
 	else if(c>a)
