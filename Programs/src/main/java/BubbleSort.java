@@ -5,7 +5,9 @@ public class BubbleSort {
 	static int arr[] = {3,1,45,4,7,9,6,5,99};
 			
 	public static void main(String[] args) {
-	System.out.println("jbjasb");
+
+	System.out.println("Doing bubble sort");
+
 	//BeforeBubbleSort(arr);
 	Sorting(arr);
 	//SortingAgain(arr);
