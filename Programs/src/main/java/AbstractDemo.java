@@ -6,8 +6,8 @@ public class AbstractDemo {
 //		Employee e= new Employee("Vikas Thange",101,1234);
 //		e.getSalary();
 		
-//		Tester t = new Tester("Vikas", 342, 342342,"Barclay");
-//		t.getSalary();
+		Tester t = new Tester("Vikas", 342, 342342,"Barclay");
+		t.getSalary();
 //		
 //		Accountant a = new Accountant("Acc", 23, 5000);
 //		a.getSalary();
@@ -31,10 +31,10 @@ abstract class Employee{
 	}
 	
 	void logIn(){
-		System.out.println("Employeed logged in");
+		System.out.println("Employee logged in");
 	}
 	void logOut(){
-		System.out.println("Employeed logged out");
+		System.out.println("Employee logged out");
 	}
 	abstract void getSalary();
 	
@@ -46,7 +46,7 @@ class Tester extends Employee{
 	public Tester(String name, int empid, float salary,String project) {
 		super(name,empid,salary);
 		this.project= project;
-		System.out.println("IN teaster constructor");
+		System.out.println("IN tester constructor");
 	}
 	void createTestCase(){
 		System.out.println("Test case created..");
